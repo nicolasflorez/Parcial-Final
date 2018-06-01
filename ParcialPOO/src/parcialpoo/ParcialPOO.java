@@ -4,18 +4,17 @@
  * and open the template in the editor.
  */
 package parcialpoo;
+import javax.swing.*;
+import static parcialpoo.Ivehiculo.cilindraje;
+import static parcialpoo.Ivehiculo.propietario;
 
-/**
- *
- * @author Estudiantes
- */
 public class ParcialPOO {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+     public static void main(String[] args) {
+
+     }
     }
+
     
-}
+
+

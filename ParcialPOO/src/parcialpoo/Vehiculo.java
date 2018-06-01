@@ -21,10 +21,10 @@ public class Vehiculo implements Ivehiculo{
      * @param   marca   la marca del carro, ej: Renault Symbol, Mazda 2, etc.
      * @param   modelo  el modelo o año del carro, por ejemplo: 1998, 2011, etc.
      */
-    public Vehiculo(String placa, String marca, float cilindraje) 
+    public Vehiculo(String placa, String propietario, float cilindraje) 
     {
         this.placa = placa;
-        this.marca = marca;
+        this.marca = propietario;
         this.cilindraje = cilindraje;
     }
     
@@ -40,9 +40,9 @@ public class Vehiculo implements Ivehiculo{
      * Método para consultar la marca
      * @return  la marca del carro
      */
-    public String getMarca() 
+    public String getPropietario() 
     {
-        return marca;
+        return propietario;
     }
 
      /**

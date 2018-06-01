@@ -44,7 +44,20 @@ public class Parqueadero
   }
   return false;
  }
- 
+ public Vehiculo buscarVehiculo(String placa)
+ {
+  for (int i = 0; i < misVehiculos.length; i++) 
+  {
+   if (misVehiculos[i] != null)
+   {
+    if (misVehiculos[i].getPlaca().equals(placa))
+    {
+     return misVehiculos[i];
+    }
+   }
+  }
+  return null;
+ }
  
 
 
