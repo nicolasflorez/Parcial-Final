@@ -21,7 +21,7 @@ public class Vehiculo implements Ivehiculo{
      * @param   marca   la marca del carro, ej: Renault Symbol, Mazda 2, etc.
      * @param   modelo  el modelo o año del carro, por ejemplo: 1998, 2011, etc.
      */
-    public Carro(String placa, String marca, float cilindraje) 
+    public Vehiculo(String placa, String marca, float cilindraje) 
     {
         this.placa = placa;
         this.marca = marca;
