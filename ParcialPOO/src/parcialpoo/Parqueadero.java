@@ -37,6 +37,7 @@ public class Parqueadero
    {
     if (misVehiculos[i].getPlaca().equals(placa))
     {
+        
      misVehiculos[i] = null;
      return true;
     }

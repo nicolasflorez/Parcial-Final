@@ -12,7 +12,7 @@ package parcialpoo;
 public interface Ivehiculo {
     private String placa;
     private String propietario;
-    private float cilindraje;
+    float cilindraje;
       
     
 }

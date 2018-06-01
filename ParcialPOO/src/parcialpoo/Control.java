@@ -48,7 +48,7 @@ public class Control {
     }
     
     
-    public void buscarCarro() {
+    public void buscarVehiculo() {
         String placa = JOptionPane.showInputDialog("Placa del vehiculo:");
         Vehiculo vehiculo = parquea.buscarVehiculo(placa);
         if (vehiculo == null) 

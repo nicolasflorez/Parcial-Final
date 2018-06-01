@@ -12,19 +12,14 @@ package parcialpoo;
 public class Vehiculo implements Ivehiculo{
     
     private String placa;
-    private String marca;
+    private String propietario;
     private float cilindraje;
     
-    /**
-     *  Constructor de objetos Carro
-     * @param   placa   placa que identifica cada carro
-     * @param   marca   la marca del carro, ej: Renault Symbol, Mazda 2, etc.
-     * @param   modelo  el modelo o año del carro, por ejemplo: 1998, 2011, etc.
-     */
+
     public Vehiculo(String placa, String propietario, float cilindraje) 
     {
         this.placa = placa;
-        this.marca = propietario;
+        this.propietario = propietario;
         this.cilindraje = cilindraje;
     }
     

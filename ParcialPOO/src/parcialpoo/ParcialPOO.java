@@ -4,14 +4,13 @@
  * and open the template in the editor.
  */
 package parcialpoo;
-import javax.swing.*;
-import static parcialpoo.Ivehiculo.cilindraje;
-import static parcialpoo.Ivehiculo.propietario;
+
 
 public class ParcialPOO {
 
      public static void main(String[] args) {
-
+            Control c= new Control ();
+        c.menu();
      }
     }
 
